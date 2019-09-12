@@ -3,11 +3,6 @@
 <%- partial('_partial/header') %>
 <body>
 <aside class="nav mobile">
-    <div class="nav-left">
-        <%- fragment_cache('left', function(){
-            return partial('_partial/nav-left');
-        }) %>
-    </div>
     <div class="nav-right">
         <%- fragment_cache('friends', function(){
             return partial('_partial/friends');
@@ -24,6 +19,16 @@
     </div>
 </aside>
 <div class="post index">
+      <nav>
+          <ul id="starlist">
+	        <li><a href="index.html">网站首页</a></li>
+		      <li><a href="about.html">关于我</a></li>
+		            <li><a href="list.html">博客日记</a></li>
+			          <li><a href="info.html">慢生活</a></li>
+				        <li><a href="time.html">时间轴</a></li>
+					      <li><a href="time.html">时间轴</a></li>
+					          </ul>
+						    </nav>
     <div class="pjax">
         <article class="index">
             <%- partial('_partial/toc-ref', {index: true}) %>

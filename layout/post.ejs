@@ -3,11 +3,6 @@
 <%- partial('_partial/header') %>
 <body>
 <aside class="nav">
-    <div class="nav-left">
-        <%- fragment_cache('left', function(){
-            return partial('_partial/nav-left');
-        }) %>
-    </div>
     <div class="nav-right">
         <%- fragment_cache('friends', function(){
             return partial('_partial/friends');
