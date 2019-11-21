@@ -1,4 +1,4 @@
-# A fork from hexo-theme-3-hexo
+# 2 columns layout, fork from hexo-theme-3-hexo
 
 ## change list
 
